@@ -3,6 +3,7 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
+
         // Create a program that implements a simple mobile phone with the following capabilities.
         // Able to store, modify, remove and query contact names.
         // You will want to create a separate class for Contacts (name and phone number).
@@ -15,6 +16,7 @@ public class Main {
         // Be sure not to expose the inner workings of the Arraylist to MobilePhone
         // e.g. no ints, no .get(i) etc
         // MobilePhone should do everything with Contact objects only.
+
         MobilePhone mobilePhone = new MobilePhone();
 
     }
